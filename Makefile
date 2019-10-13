@@ -360,15 +360,11 @@ include $(srctree)/scripts/Kbuild.include
 # Make variables (CC, etc...)
 AS		= $(CROSS_COMPILE)as
 LD		= $(CROSS_COMPILE)ld
-<<<<<<< HEAD
-REAL_CC		= $(CROSS_COMPILE)gcc
-=======
 ifneq ($(USE_CCACHE),)
 REAL_CC		= $(ccache) $(CROSS_COMPILE)gcc
 else
 REAL_CC		= $(CROSS_COMPILE)gcc
 endif
->>>>>>> upstream
 CPP		= $(CC) -E
 AR		= $(CROSS_COMPILE)ar
 NM		= $(CROSS_COMPILE)nm

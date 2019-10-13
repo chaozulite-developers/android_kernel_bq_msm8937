@@ -85,8 +85,6 @@ static inline void blk_mq_tag_idle(struct blk_mq_hw_ctx *hctx)
 	__blk_mq_tag_idle(hctx);
 }
 
-<<<<<<< HEAD
-=======
 /*
  * This helper should only be used for flush request to share tag
  * with the request cloned from, and both the two requests can't be
@@ -99,5 +97,4 @@ static inline void blk_mq_tag_set_rq(struct blk_mq_hw_ctx *hctx,
 	hctx->tags->rqs[tag] = rq;
 }
 
->>>>>>> upstream
 #endif
