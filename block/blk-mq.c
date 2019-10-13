@@ -498,6 +498,7 @@ void blk_mq_kick_requeue_list(struct request_queue *q)
 }
 EXPORT_SYMBOL(blk_mq_kick_requeue_list);
 
+<<<<<<< HEAD
 static inline bool is_flush_request(struct request *rq,
 		struct blk_flush_queue *fq, unsigned int tag)
 {
@@ -515,6 +516,11 @@ struct request *blk_mq_tag_to_rq(struct blk_mq_tags *tags, unsigned int tag)
 		return rq;
 
 	return fq->flush_rq;
+=======
+struct request *blk_mq_tag_to_rq(struct blk_mq_tags *tags, unsigned int tag)
+{
+	return tags->rqs[tag];
+>>>>>>> upstream
 }
 EXPORT_SYMBOL(blk_mq_tag_to_rq);
 
