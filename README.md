@@ -51,6 +51,8 @@ You can specify "-j CORES" argument to speed-up your compilation, example:
         $ make O=../KERNEL_OUT/ -C kernel ARCH=arm  CROSS_COMPILE=../arm-eabi-4.8/bin/arm-eabi- -j 8
 
 Thanks to:
+==========
+
 | BQ              | Provides kernel source                    |
 | ----------------|-------------------------------------------|
 | Jose Alberto    | For teach me how to oc                    |
