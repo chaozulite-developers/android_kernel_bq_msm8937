@@ -56,13 +56,8 @@ Thanks to:
 | BQ              | Provides kernel source                    |
 | ----------------|-------------------------------------------|
 | Jose Alberto    | For teach me how to oc                    |
-|                 |                                           |
 | Maanush Putcha  | For help me with sources                  |
-|                 |                                           |
 | Pablo Fraile    | For help me with WiFi                     |
-|                 |                                           |
 | Jake            | For help me with WiFi                     |
-|                 |                                           |
 | Tomac           | For help me with WiFi                     |
-|                 |                                           |
 | Me              | For my hard work with this device         |
